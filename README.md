@@ -20,6 +20,7 @@ There are 3 phases to a disaster
 ==============
 * Currently rescue operations are planned based on media reports, satellite images and word of mouth. Satellite images may not be reliable in cases where a victim is trapped indoors. Media cannot possibly reach every single disaster struck area. Word of mouth is too slow. 
 * In recent times, a more effective approach has been to harness the power of social media, to find affected areas and what resources the victims require. We propose to provide a unified dashboard which can crowdsource information from social media and present it in a form that is easy for rescue agencies to use for their operations. 
+![Kerala Flood Tweet](https://github.com/manangoel99/NimbooPaani/images/tweet.png)
 * In specific, tweets such as these (example taken from kerala floods) can be mined from social media and aggregated to give rescue operations an overview of where victims are stuck and what resources they require. 
 
 --------------------

@@ -6,16 +6,29 @@ from django.shortcuts import render
 from django.http import HttpRequest
 from django.template import RequestContext
 from datetime import datetime
+from python_webapp_django.settings import BASE_DIR
+import pandas as pd
 
 def home(request):
     """Renders the home page."""
     assert isinstance(request, HttpRequest)
+
+
+    data = pd.read_csv(BASE_DIR+'/app/static/app/data/keralaTweetDump3.csv',delimiter=';')
+    locations = data['Location'].tolist()
+    descriptions = data['Status'].tolist()
+    locations = zip(locations,descriptions)
+    locations = list(set(locations))
+
+    print(locations)
+
     return render(
         request,
-        'app/index.html',
+        'app/map.html',
         {
-            'title':'Home Page',
-            'year':datetime.now().year,
+            # 'title':'Home Page',
+            # 'year':datetime.now().year,
+            'locations' : locations[:5]
         }
     )
 

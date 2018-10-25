@@ -15,6 +15,20 @@ def home(request):
     """Renders the home page."""
     assert isinstance(request, HttpRequest)
 
+    return render(
+        request,
+        'app/index.html',
+        {
+            'title':'Home Page',
+            'year':datetime.now().year,
+            # 'locations' : locations[:10]
+        }
+    )
+
+def maps(request):
+    """Renders the home page."""
+    assert isinstance(request, HttpRequest)
+
     # Camps.objects.create(
     #     name = "CM's Relief Fund",
     #     capacity = 20,
@@ -44,6 +58,8 @@ def home(request):
         }
     )
 
+
+
 def contact(request):
     """Renders the contact page."""
     assert isinstance(request, HttpRequest)
@@ -63,3 +79,4 @@ def returnClosestCamps(request):
 
     camps_json = serializers.serialize('json', camps)
     return HttpResponse(camps_json, content_type='application/json')
+

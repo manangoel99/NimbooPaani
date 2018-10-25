@@ -17,6 +17,7 @@ import app.views
 urlpatterns = [
     # Examples:
     url(r'^$', app.views.home, name='home'),
+    url(r'^maps$', app.views.maps, name='maps'),
     url(r'^camps', app.views.returnClosestCamps, name='camps'),
     url(r'^contact$', app.views.contact, name='contact'),
     # url(r'^about', app.views.about, name='about'),

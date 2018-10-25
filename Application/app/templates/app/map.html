@@ -42,7 +42,7 @@
         var geocoder = new google.maps.Geocoder();
 
         {% for location in locations %}
-          geocodeAddress("{{ location.0 }}",geocoder, map, "{{ location.1 }}");
+          geocodeAddress("{{ location.0 }}",geocoder, map, "<b>People:</b>"+"{{ location.2 }}<br/>"+ "<b>Status</b> "+"{{ location.1 }}");
         {% endfor %}
       }
 

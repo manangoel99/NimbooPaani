@@ -10,6 +10,7 @@ from python_webapp_django.settings import BASE_DIR
 from app.models import *
 import pandas as pd
 from django.core import serializers
+import json
 
 def home(request):
     """Renders the home page."""
@@ -80,3 +81,17 @@ def returnClosestCamps(request):
     camps_json = serializers.serialize('json', camps)
     return HttpResponse(camps_json, content_type='application/json')
 
+def AddRescueSpot(request):
+    #print(request.body.decode('ascii'))
+    obj = json.loads(request.body.decode('ascii'))
+    print(obj)
+    spot = RescueSpot()
+    spot.lat = obj["lat"]
+    spot.lon = obj["lon"]
+    try:
+        spot.description = obj["ppl"]
+    except:
+        pass
+
+    spot.save()
+    return HttpResponse("Saved Successfully")

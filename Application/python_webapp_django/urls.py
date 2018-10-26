@@ -22,6 +22,8 @@ urlpatterns = [
     url(r'^camps', app.views.returnClosestCamps, name='camps'),
     url(r'^newref/$', app.views.AddNewRefugee, name='newRef'),
     url(r'^viewresc/$', app.views.viewResources, name='viewResc'),
+    url(r'^addresc/$', app.views.addResources, name='addResc'),
+    url(r'^allocateresc/$', app.views.allocateResources, name='allocateResc'),
     # url(r'^about', app.views.about, name='about'),
     url(r'^login/$',
         django.contrib.auth.views.login,

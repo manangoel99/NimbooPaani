@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title }} - Python Django Application</title>
+    <title>{{ title }} - Nimboo Paani</title>
     {% load staticfiles %}
     <link rel="stylesheet" type="text/css" href="{% static 'app/content/bootstrap.min.css' %}" />
     <link rel="stylesheet" type="text/css" href="{% static 'app/content/site.css' %}" />
@@ -19,7 +19,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="/" class="navbar-brand">Python Django</a>
+                <a href="/" class="navbar-brand">Nimboo Paani</a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
@@ -27,8 +27,9 @@
                     <li><a href="{% url 'maps' %}">Map</a></li>
                     <li><a href="{% url 'newRef' %}">New Refugee</a></li>
                     <li><a href="{% url 'viewResc' %}">View Resources</a></li>
+                    <li><a href="{% url 'addResc' %}">Add Resources</a></li>
+                    <li><a href="{% url 'allocateResc' %}">Allocate Resources</a></li>
                 </ul>
-                {% include 'app/loginpartial.html' %}
             </div>
         </div>
     </div>
@@ -36,9 +37,7 @@
     <div class="container body-content">
 {% block content %}{% endblock %}
         <hr/>
-        <footer>
-            <p>&copy; {{ year }} - Python Django Application</p>
-        </footer>
+        
     </div>
 
     <script src="{% static 'app/scripts/jquery-1.10.2.js' %}"></script>

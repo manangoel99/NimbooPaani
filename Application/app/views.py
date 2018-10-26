@@ -66,7 +66,7 @@ def maps(request):
         {
             # 'title':'Home Page',
             # 'year':datetime.now().year,
-            'locations' : locations[:10],
+            'locations' : locations,
             'newlocations' : rescue
         }
     )
@@ -204,6 +204,42 @@ def addToDB(form):
                     qty = i[1],
                     unit = i[2]
                 )
+
+def addToDB1(form):
+    form = form.cleaned_data
+    print(form)
+
+    camp = Camps.objects.get(name = form["camp"])
+
+
+    specialneeds = form["resources"]
+    l = [[i for i in j.strip().split(' ')] for j in specialneeds.split(';')]
+
+    for i in l:
+        try:
+            created2 = ResourcesNeed.objects.get(cid = camp, resource=i[0])
+        except ObjectDoesNotExist:
+            if(i[0]!=''):
+                ResourcesNeed.objects.create(
+                    cid = camp,
+                    resource = i[0],
+                    qty = 0,
+                    unit = ''
+                )      
+        try:        
+            created = ResourcesAvail.objects.get(cid = camp, resource=i[0])
+            # print(created.qty)
+            created.qty = int(created.qty) + int(i[1])
+            created.save()
+
+        except ObjectDoesNotExist:
+            if(i[0]!=''):
+                ResourcesAvail.objects.create(
+                    cid = camp,
+                    resource = i[0],
+                    qty = i[1],
+                    unit = i[2]
+                )
            
 
         
@@ -278,3 +314,98 @@ def ForecastedPlaces(request):
     
     jason = json.dumps(x)
     return HttpResponse(jason, content_type='application/json')
+
+
+def addResources(request):
+    if request.method == 'POST':
+        form = AddResources(request.POST)
+        if form.is_valid():
+            addToDB1(form)
+            return render(request, 'app/addResc.html', {'form':form, 'recv':"Added Successfully"})
+    else:
+        form = AddResources()
+
+    return render(request, 'app/addResc.html', {'form':form})
+
+
+def Allocate(form):
+    form = form.cleaned_data
+
+    specialneeds = form["resources"]
+    l = [[i for i in j.strip().split(' ')] for j in specialneeds.split(';')]
+
+
+    camps = Camps.objects.all()
+
+    ans = []
+
+    for i in l:
+        diffs = []
+        su = 0
+        for camp in camps:
+            try:
+                created2 = ResourcesAvail.objects.get(cid = camp, resource=i[0])
+            except ObjectDoesNotExist:
+                if(i[0]!=''):
+                    ResourcesAvail.objects.create(
+                        cid = camp,
+                        resource = i[0],
+                        qty = 0,
+                        unit = ''
+                    )      
+            try:
+                created3 = ResourcesNeed.objects.get(cid = camp, resource=i[0])
+            except ObjectDoesNotExist:
+                if(i[0]!=''):
+                    ResourcesNeed.objects.create(
+                        cid = camp,
+                        resource = i[0],
+                        qty = 0,
+                        unit = ''
+                    )      
+
+            created2 = ResourcesAvail.objects.get(cid = camp, resource=i[0])
+            created3 = ResourcesNeed.objects.get(cid = camp, resource=i[0])
+
+            if (created3.qty-created2.qty)>0:
+                diffs.append(created3.qty-created2.qty)
+                su += (created3.qty-created2.qty)
+            else:
+                diffs.append(0)
+
+        avg = su//len(camps)
+        alloc = []
+
+        avail = int(i[1])
+        for j in diffs:
+            if j > avg and avail > j-avg:
+                alloc.append(j-avg)
+                avail -= (j-avg)
+            else:
+                alloc.append(0)
+
+        if avail > 0:
+            each = avail//len(camps)
+            for j in range (len(alloc)):
+                alloc[j] += each
+
+
+        for j, camp in enumerate(camps):
+            ans.append("Allocate {} {} of {} to {}\n".format(alloc[j],i[2],i[0],camp.name))
+
+        # if avail > 0:
+        #     ans.append("Hold on to {} {} of {}".format(avail,i[2],i[0]))
+
+    return ans
+
+
+def allocateResources(request):
+    if request.method == 'POST':
+        form = AllocateResources(request.POST)
+        if form.is_valid():
+            lis = Allocate(form)
+            return render(request, 'app/allocateResc.html', {'form':form, 'lis':lis})
+    else:
+        form = AllocateResources()
+
+    return render(request, 'app/allocateResc.html', {'form':form})

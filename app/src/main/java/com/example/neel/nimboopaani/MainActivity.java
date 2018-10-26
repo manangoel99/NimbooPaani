@@ -103,8 +103,8 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected String doInBackground(Void... voids) {
             try {
-//                URL url = new URL("http://nimboopaani.azurewebsites.net/places");
-                URL url=new URL("http://10.1.134.235:8000/places");
+               URL url = new URL("http://nimboopaani.azurewebsites.net/places");
+//                 URL url=new URL("http://10.1.134.235:8000/places");
                 OkHttpClient client = new OkHttpClient();
                 Request request = new Request.Builder()
                         .url(url)

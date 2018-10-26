@@ -18,6 +18,15 @@ def home(request):
     """Renders the home page."""
     assert isinstance(request, HttpRequest)
 
+    # Camps.objects.create(
+    #     name = "India4Kerala Camp",
+    #     currentPeople = 0,
+    #     capacity = 80,
+    #     contact = 9122591910,
+    #     lat = 8.859175, 
+    #     lon = 76.782781 
+    # )
+
     return render(
         request,
         'app/index.html',
@@ -32,13 +41,6 @@ def maps(request):
     """Renders the home page."""
     assert isinstance(request, HttpRequest)
 
-    # Camps.objects.create(
-    #     name = "CM's Relief Fund",
-    #     capacity = 20,
-    #     contact = 9125891910,
-    #     lat = 10.027458,
-    #     lon = 76.338064 
-    # )
     rescue = RescueSpot.objects.all()
 
     print(rescue)

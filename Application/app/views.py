@@ -2,22 +2,21 @@
 Definition of views.
 """
 
-from django.shortcuts import render
-from django.http import HttpRequest,HttpResponse
-from django.template import RequestContext
+import json
 from datetime import datetime
-from python_webapp_django.settings import BASE_DIR
-from django.core.exceptions import ObjectDoesNotExist
-from app.models import *
-from app.forms import *
+
 import pandas as pd
-from django.core import serializers
-import json
 import requests
-import PyPDF2
-import json
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
+from django.core import serializers
+from django.core.exceptions import ObjectDoesNotExist
+from django.http import HttpRequest, HttpResponse
+from django.shortcuts import render
+from django.template import RequestContext
+
+from app.forms import *
+from app.models import *
+from python_webapp_django.settings import BASE_DIR
+
 
 def home(request):
     """Renders the home page."""

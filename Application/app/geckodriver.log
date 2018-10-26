@@ -1,0 +1,462 @@
+1540560158988	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.awJ1Tp7MbOXI"
+1540560161633	Marionette	INFO	Listening on port 41811
+1540560161705	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540560161740	Marionette	DEBUG	[2147483649] Frame script loaded
+1540560161741	Marionette	DEBUG	[2147483649] Frame script registered
+1540560161780	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540560162183	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript error: http://www.imd.gov.in/pages/allindiawxwarningbulletin.php, line 172: ReferenceError: ddaccordion is not defined
+1540560174608	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540560200347	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540560270479	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.JH7iS1SeGcVe"
+1540560272823	Marionette	INFO	Listening on port 43585
+1540560272898	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540560272931	Marionette	DEBUG	[2147483649] Frame script loaded
+1540560272932	Marionette	DEBUG	[2147483649] Frame script registered
+1540560272944	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540560274185	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript error: http://www.imd.gov.in/pages/allindiawxwarningbulletin.php, line 172: ReferenceError: ddaccordion is not defined
+1540560293622	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540560342641	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540560385507	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.DDtf9BkXIuLt"
+1540560388073	Marionette	INFO	Listening on port 35787
+1540560388117	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540560388157	Marionette	DEBUG	[2147483649] Frame script loaded
+1540560388157	Marionette	DEBUG	[2147483649] Frame script registered
+1540560388178	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540560388484	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript error: http://www.imd.gov.in/pages/allindiawxwarningbulletin.php, line 172: ReferenceError: ddaccordion is not defined
+1540560404382	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540560420587	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540560515379	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.GRZbji5XOikS"
+1540560518251	Marionette	INFO	Listening on port 36165
+1540560518289	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540560518323	Marionette	DEBUG	[2147483649] Frame script loaded
+1540560518324	Marionette	DEBUG	[2147483649] Frame script registered
+1540560518374	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540560518474	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript error: http://www.imd.gov.in/pages/allindiawxwarningbulletin.php, line 172: ReferenceError: ddaccordion is not defined
+1540560520831	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540560521272	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+JavaScript error: resource://pdf.js/build/pdf.js, line 427: Error: 
+1540560542781	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.OfdnP4EFWilk"
+1540560545821	Marionette	INFO	Listening on port 33287
+1540560545891	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540560545927	Marionette	DEBUG	[2147483649] Frame script loaded
+1540560545928	Marionette	DEBUG	[2147483649] Frame script registered
+1540560545940	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540560546349	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript error: http://www.imd.gov.in/pages/allindiawxwarningbulletin.php, line 172: ReferenceError: ddaccordion is not defined
+1540560547721	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540560547768	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+[Parent 16857, Gecko_IOThread] WARNING: pipe error (63): Connection reset by peer: file /build/firefox-UmddGa/firefox-62.0+linuxmint4+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540560556320	Marionette	INFO	Stopped listening on port 33287
+[Parent 15692, Gecko_IOThread] WARNING: pipe error (65): Connection reset by peer: file /build/firefox-UmddGa/firefox-62.0+linuxmint4+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540560559122	Marionette	INFO	Stopped listening on port 35787
+[Parent 16532, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-UmddGa/firefox-62.0+linuxmint4+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 15403, Gecko_IOThread] WARNING: pipe error (45): Connection reset by peer: file /build/firefox-UmddGa/firefox-62.0+linuxmint4+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540560562972	Marionette	INFO	Stopped listening on port 36165
+[Parent 15015, Gecko_IOThread] WARNING: pipe error (56): Connection reset by peer: file /build/firefox-UmddGa/firefox-62.0+linuxmint4+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540560563433	Marionette	INFO	Stopped listening on port 43585
+1540560563703	Marionette	INFO	Stopped listening on port 41811
+1540560771156	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.AMYXZ4HXgv4w"
+1540560773491	Marionette	INFO	Listening on port 34651
+1540560773564	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540560773597	Marionette	DEBUG	[2147483649] Frame script loaded
+1540560773599	Marionette	DEBUG	[2147483649] Frame script registered
+1540560773609	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540560773716	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript error: http://www.imd.gov.in/pages/allindiawxwarningbulletin.php, line 172: ReferenceError: ddaccordion is not defined
+1540560776108	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540560776149	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540560820871	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.3afrNlPEHg4C"
+1540560823443	Marionette	INFO	Listening on port 38607
+1540560823485	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540560823520	Marionette	DEBUG	[2147483649] Frame script loaded
+1540560823520	Marionette	DEBUG	[2147483649] Frame script registered
+1540560823537	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540560823648	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript error: http://www.imd.gov.in/pages/allindiawxwarningbulletin.php, line 172: ReferenceError: ddaccordion is not defined
+1540560827066	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540560827139	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540560861157	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.h1Ths5X5wS50"
+1540560863688	Marionette	INFO	Listening on port 36401
+1540560863765	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540560863801	Marionette	DEBUG	[2147483649] Frame script loaded
+1540560863801	Marionette	DEBUG	[2147483649] Frame script registered
+1540560863816	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540560864014	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript error: http://www.imd.gov.in/pages/allindiawxwarningbulletin.php, line 172: ReferenceError: ddaccordion is not defined
+1540560865424	Marionette	DEBUG	[2147483649] Received DOM event unload for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1540560865435	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:363
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1588
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1724
+observe()@resource://gre/modules/AsyncShutdown.jsm:541
+1540560865450	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483653
+1540560865450	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483654
+1540560865450	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483649
+1540560867080	Marionette	INFO	Stopped listening on port 36401
+1540560874850	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.dDikly2mSh3K"
+1540560877411	Marionette	INFO	Listening on port 37163
+1540560877463	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540560877500	Marionette	DEBUG	[2147483649] Frame script loaded
+1540560877501	Marionette	DEBUG	[2147483649] Frame script registered
+1540560877521	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540560877654	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript error: http://www.imd.gov.in/pages/allindiawxwarningbulletin.php, line 172: ReferenceError: ddaccordion is not defined
+1540560881030	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540560881102	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540560928796	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.8fi64VHX3rRu"
+1540560931414	Marionette	INFO	Listening on port 37461
+1540560931512	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540560931568	Marionette	DEBUG	[2147483649] Frame script loaded
+1540560931569	Marionette	DEBUG	[2147483649] Frame script registered
+1540560931592	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540560931668	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript error: http://www.imd.gov.in/pages/allindiawxwarningbulletin.php, line 172: ReferenceError: ddaccordion is not defined
+1540560935001	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540560935070	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540560961597	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.iTo10wEb48b4"
+1540560964799	Marionette	INFO	Listening on port 36515
+1540560964840	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540560964875	Marionette	DEBUG	[2147483649] Frame script loaded
+1540560964876	Marionette	DEBUG	[2147483649] Frame script registered
+1540560964887	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540560964969	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript error: http://www.imd.gov.in/pages/allindiawxwarningbulletin.php, line 172: ReferenceError: ddaccordion is not defined
+1540560967332	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540560967486	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+[Parent 19273, Gecko_IOThread] WARNING: pipe error (61): Connection reset by peer: file /build/firefox-UmddGa/firefox-62.0+linuxmint4+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540560982193	Marionette	INFO	Stopped listening on port 36515
+1540561069056	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.oa0huuUGW0DY"
+1540561071727	Marionette	INFO	Listening on port 34353
+1540561071768	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540561071803	Marionette	DEBUG	[2147483649] Frame script loaded
+1540561071804	Marionette	DEBUG	[2147483649] Frame script registered
+1540561071818	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540561071934	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript error: http://www.imd.gov.in/pages/allindiawxwarningbulletin.php, line 172: ReferenceError: ddaccordion is not defined
+1540561073217	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540561073383	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+JavaScript error: resource://activity-stream/lib/TopSitesFeed.jsm, line 93: TypeError: setting getter-only property "_currentSearchHostname"
+[Parent 19778, Gecko_IOThread] WARNING: pipe error (63): Connection reset by peer: file /build/firefox-UmddGa/firefox-62.0+linuxmint4+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540561083954	Marionette	INFO	Stopped listening on port 34353
+1540561088814	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.oPE8Fr8I9Drc"
+1540561091568	Marionette	INFO	Listening on port 44455
+1540561091634	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540561091669	Marionette	DEBUG	[2147483649] Frame script loaded
+1540561091670	Marionette	DEBUG	[2147483649] Frame script registered
+1540561091683	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540561091759	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript error: http://www.imd.gov.in/pages/allindiawxwarningbulletin.php, line 172: ReferenceError: ddaccordion is not defined
+1540561094096	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540561094226	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540561144391	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.QyghmDGdCakM"
+1540561147088	Marionette	INFO	Listening on port 34883
+1540561147107	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540561147154	Marionette	DEBUG	[2147483649] Frame script loaded
+1540561147156	Marionette	DEBUG	[2147483649] Frame script registered
+1540561147178	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540561147259	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript error: http://www.imd.gov.in/pages/allindiawxwarningbulletin.php, line 172: ReferenceError: ddaccordion is not defined
+1540561150602	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540561150665	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+[Parent 20087, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-UmddGa/firefox-62.0+linuxmint4+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540561161356	Marionette	INFO	Stopped listening on port 44455
+[Parent 18967, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-UmddGa/firefox-62.0+linuxmint4+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540561164265	Marionette	INFO	Stopped listening on port 37461
+[Parent 18637, Gecko_IOThread] WARNING: pipe error (65): Connection reset by peer: file /build/firefox-UmddGa/firefox-62.0+linuxmint4+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540561170815	Marionette	INFO	Stopped listening on port 37163
+1540561172270	Marionette	INFO	Stopped listening on port 38607
+[Parent 17662, Gecko_IOThread] WARNING: pipe error (56): Connection reset by peer: file /build/firefox-UmddGa/firefox-62.0+linuxmint4+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540561174135	Marionette	INFO	Stopped listening on port 34651
+1540561200923	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.eSrgr4OtBtNq"
+1540561203773	Marionette	INFO	Listening on port 33949
+1540561203838	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540561203879	Marionette	DEBUG	[2147483649] Frame script loaded
+1540561203881	Marionette	DEBUG	[2147483649] Frame script registered
+1540561203896	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540561203970	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript error: http://www.imd.gov.in/pages/allindiawxwarningbulletin.php, line 172: ReferenceError: ddaccordion is not defined
+1540561207314	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540561207380	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540561360181	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.qPmk2eGrOlG2"
+1540561362539	Marionette	INFO	Listening on port 35289
+1540561362596	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540561362630	Marionette	DEBUG	[2147483649] Frame script loaded
+1540561362631	Marionette	DEBUG	[2147483649] Frame script registered
+1540561362642	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540561362726	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript error: http://www.imd.gov.in/pages/allindiawxwarningbulletin.php, line 172: ReferenceError: ddaccordion is not defined
+1540561366066	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540561366134	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540561387298	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Vbou6uuFFlnH"
+1540561390085	Marionette	INFO	Listening on port 35081
+1540561390115	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540561390149	Marionette	DEBUG	[2147483649] Frame script loaded
+1540561390150	Marionette	DEBUG	[2147483649] Frame script registered
+1540561390174	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540561390298	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript error: http://www.imd.gov.in/pages/allindiawxwarningbulletin.php, line 172: ReferenceError: ddaccordion is not defined
+1540561392613	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540561392738	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+[Parent 20712, Gecko_IOThread] WARNING: pipe error (56): Connection reset by peer: file /build/firefox-UmddGa/firefox-62.0+linuxmint4+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540561497301	Marionette	INFO	Stopped listening on port 33949
+[Parent 21291, Gecko_IOThread] WARNING: pipe error (67): Connection reset by peer: file /build/firefox-UmddGa/firefox-62.0+linuxmint4+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540561498336	Marionette	INFO	Stopped listening on port 35289
+[Parent 21564, Gecko_IOThread] WARNING: pipe error (56): Connection reset by peer: file /build/firefox-UmddGa/firefox-62.0+linuxmint4+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540561499318	Marionette	INFO	Stopped listening on port 35081
+1540561522860	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.hnEkE6jmGkC4"
+1540561525317	Marionette	INFO	Listening on port 37295
+1540561525378	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540561525412	Marionette	DEBUG	[2147483649] Frame script loaded
+1540561525413	Marionette	DEBUG	[2147483649] Frame script registered
+1540561525424	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540561525499	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript error: http://www.imd.gov.in/pages/allindiawxwarningbulletin.php, line 172: ReferenceError: ddaccordion is not defined
+1540561528838	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540561528905	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540561554116	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.DGL5zcKKxRqK"
+1540561556518	Marionette	INFO	Listening on port 39677
+1540561556525	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540561556564	Marionette	DEBUG	[2147483649] Frame script loaded
+1540561556566	Marionette	DEBUG	[2147483649] Frame script registered
+1540561556589	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540561556675	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript error: http://www.imd.gov.in/pages/allindiawxwarningbulletin.php, line 172: ReferenceError: ddaccordion is not defined
+1540561560013	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540561560079	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+[Parent 22410, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-UmddGa/firefox-62.0+linuxmint4+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540561573609	Marionette	INFO	Stopped listening on port 39677
+[Parent 22131, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-UmddGa/firefox-62.0+linuxmint4+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540561574731	Marionette	INFO	Stopped listening on port 37295
+1540561603767	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.b9atWzrJVBFO"
+1540561606242	Marionette	INFO	Listening on port 40819
+1540561606277	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540561606312	Marionette	DEBUG	[2147483649] Frame script loaded
+1540561606313	Marionette	DEBUG	[2147483649] Frame script registered
+1540561606336	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540561606448	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript error: http://www.imd.gov.in/pages/allindiawxwarningbulletin.php, line 172: ReferenceError: ddaccordion is not defined
+1540561609910	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540561609986	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+[Parent 22729, Gecko_IOThread] WARNING: pipe error (63): Connection reset by peer: file /build/firefox-UmddGa/firefox-62.0+linuxmint4+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540561628763	Marionette	INFO	Stopped listening on port 40819
+1540561656293	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.8Zl74Ysw775w"
+1540561658689	Marionette	INFO	Listening on port 34845
+1540561658711	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540561658746	Marionette	DEBUG	[2147483649] Frame script loaded
+1540561658749	Marionette	DEBUG	[2147483649] Frame script registered
+1540561658768	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540561658864	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript error: http://www.imd.gov.in/pages/allindiawxwarningbulletin.php, line 172: ReferenceError: ddaccordion is not defined
+1540561662275	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540561662342	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540561674429	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.8INfFBcIZCfm"
+1540561677114	Marionette	INFO	Listening on port 37361
+1540561677143	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540561677179	Marionette	DEBUG	[2147483649] Frame script loaded
+1540561677180	Marionette	DEBUG	[2147483649] Frame script registered
+1540561677192	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540561677270	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript error: http://www.imd.gov.in/pages/allindiawxwarningbulletin.php, line 172: ReferenceError: ddaccordion is not defined
+1540561680637	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540561680707	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540561762017	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Yv2E2lO42Qpx"
+1540561764725	Marionette	INFO	Listening on port 39337
+1540561764836	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540561764868	Marionette	DEBUG	[2147483649] Frame script loaded
+1540561764869	Marionette	DEBUG	[2147483649] Frame script registered
+1540561764910	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540561764988	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript error: http://www.imd.gov.in/pages/allindiawxwarningbulletin.php, line 172: ReferenceError: ddaccordion is not defined
+1540561768413	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540561768482	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+[Parent 23674, Gecko_IOThread] WARNING: pipe error (63): Connection reset by peer: file /build/firefox-UmddGa/firefox-62.0+linuxmint4+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540561777928	Marionette	INFO	Stopped listening on port 39337
+[Parent 23337, Gecko_IOThread] WARNING: pipe error (56): Connection reset by peer: file /build/firefox-UmddGa/firefox-62.0+linuxmint4+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540561779635	Marionette	INFO	Stopped listening on port 37361
+[Parent 23064, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-UmddGa/firefox-62.0+linuxmint4+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540561780280	Marionette	INFO	Stopped listening on port 34845
+1540561819278	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.vzpAgZLlt0uR"
+1540561821682	Marionette	INFO	Listening on port 43113
+1540561821686	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540561821738	Marionette	DEBUG	[2147483649] Frame script loaded
+1540561821743	Marionette	DEBUG	[2147483649] Frame script registered
+1540561821771	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540561821854	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript error: http://www.imd.gov.in/pages/allindiawxwarningbulletin.php, line 172: ReferenceError: ddaccordion is not defined
+1540561825201	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540561825274	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+[Parent 23990, Gecko_IOThread] WARNING: pipe error (56): Connection reset by peer: file /build/firefox-UmddGa/firefox-62.0+linuxmint4+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540561858661	Marionette	INFO	Stopped listening on port 43113
+1540561869285	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.OfnjpZEcVKMi"
+1540561871776	Marionette	INFO	Listening on port 43473
+1540561871800	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540561871837	Marionette	DEBUG	[2147483649] Frame script loaded
+1540561871837	Marionette	DEBUG	[2147483649] Frame script registered
+1540561871857	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540561871933	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript error: http://www.imd.gov.in/pages/allindiawxwarningbulletin.php, line 172: ReferenceError: ddaccordion is not defined
+1540561874253	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540561874453	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540561930026	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.kOlGC8ve71P5"
+1540561932926	Marionette	INFO	Listening on port 32949
+1540561932952	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540561932991	Marionette	DEBUG	[2147483649] Frame script loaded
+1540561932992	Marionette	DEBUG	[2147483649] Frame script registered
+1540561933034	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540561933117	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript error: http://www.imd.gov.in/pages/allindiawxwarningbulletin.php, line 172: ReferenceError: ddaccordion is not defined
+1540561936439	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540561936514	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+[Parent 24521, Gecko_IOThread] WARNING: pipe error (56): Connection reset by peer: file /build/firefox-UmddGa/firefox-62.0+linuxmint4+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 24262, Gecko_IOThread] WARNING: pipe error (56): Connection reset by peer: file /build/firefox-UmddGa/firefox-62.0+linuxmint4+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540561959099	Marionette	INFO	Stopped listening on port 32949
+1540561959195	Marionette	INFO	Stopped listening on port 43473
+1540561965169	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.BHSVuQdDlwU4"
+1540561967654	Marionette	INFO	Listening on port 34093
+1540561967683	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540561967718	Marionette	DEBUG	[2147483649] Frame script loaded
+1540561967719	Marionette	DEBUG	[2147483649] Frame script registered
+1540561967745	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540561968012	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript error: http://www.imd.gov.in/pages/allindiawxwarningbulletin.php, line 172: ReferenceError: ddaccordion is not defined
+1540561971332	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540561971409	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540562006633	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.edCj2MXuM4KQ"
+1540562009131	Marionette	INFO	Listening on port 34323
+1540562009156	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540562009205	Marionette	DEBUG	[2147483649] Frame script loaded
+1540562009206	Marionette	DEBUG	[2147483649] Frame script registered
+1540562009224	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540562009313	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript error: http://www.imd.gov.in/pages/allindiawxwarningbulletin.php, line 172: ReferenceError: ddaccordion is not defined
+1540562012716	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540562012787	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540562085478	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.fSa1PrL7Hp4g"
+1540562088150	Marionette	INFO	Listening on port 37981
+1540562088188	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540562088222	Marionette	DEBUG	[2147483649] Frame script loaded
+1540562088223	Marionette	DEBUG	[2147483649] Frame script registered
+1540562088242	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540562088322	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript error: http://www.imd.gov.in/pages/allindiawxwarningbulletin.php, line 172: ReferenceError: ddaccordion is not defined
+1540562091708	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540562091774	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540562115921	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.paEOeyZVwf8x"
+1540562118704	Marionette	INFO	Listening on port 35021
+1540562118731	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540562118769	Marionette	DEBUG	[2147483649] Frame script loaded
+1540562118770	Marionette	DEBUG	[2147483649] Frame script registered
+1540562118795	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540562118888	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript error: http://www.imd.gov.in/pages/allindiawxwarningbulletin.php, line 172: ReferenceError: ddaccordion is not defined
+1540562122217	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540562122281	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540562234207	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.w1ZBAPpEwBD6"
+1540562236995	Marionette	INFO	Listening on port 33933
+1540562237023	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540562237059	Marionette	DEBUG	[2147483649] Frame script loaded
+1540562237060	Marionette	DEBUG	[2147483649] Frame script registered
+1540562237085	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540562237196	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript error: http://www.imd.gov.in/pages/allindiawxwarningbulletin.php, line 172: ReferenceError: ddaccordion is not defined
+1540562240609	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540562240678	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+[Parent 25983, Gecko_IOThread] WARNING: pipe error (56): Connection reset by peer: file /build/firefox-UmddGa/firefox-62.0+linuxmint4+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 25614, Gecko_IOThread] WARNING: pipe error (63): Connection reset by peer: file /build/firefox-UmddGa/firefox-62.0+linuxmint4+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540562259254	Marionette	INFO	Stopped listening on port 33933
+1540562259468	Marionette	INFO	Stopped listening on port 35021
+[Parent 25350, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-UmddGa/firefox-62.0+linuxmint4+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540562260605	Marionette	INFO	Stopped listening on port 37981
+[Parent 25082, Gecko_IOThread] WARNING: pipe error (65): Connection reset by peer: file /build/firefox-UmddGa/firefox-62.0+linuxmint4+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540562261213	Marionette	INFO	Stopped listening on port 34323
+[Parent 24807, Gecko_IOThread] WARNING: pipe error (56): Connection reset by peer: file /build/firefox-UmddGa/firefox-62.0+linuxmint4+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540562262932	Marionette	INFO	Stopped listening on port 34093
+1540562267122	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.hw0wNjud9gt1"
+1540562269701	Marionette	INFO	Listening on port 45927
+1540562269736	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540562269768	Marionette	DEBUG	[2147483649] Frame script loaded
+1540562269769	Marionette	DEBUG	[2147483649] Frame script registered
+1540562269788	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540562269867	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript error: http://www.imd.gov.in/pages/allindiawxwarningbulletin.php, line 172: ReferenceError: ddaccordion is not defined
+1540562274163	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540562274230	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+[Parent 26292, Gecko_IOThread] WARNING: pipe error (63): Connection reset by peer: file /build/firefox-UmddGa/firefox-62.0+linuxmint4+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540562303897	Marionette	INFO	Stopped listening on port 45927
+1540562335293	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.4pdUmVDMa1x2"
+1540562338183	Marionette	INFO	Listening on port 37399
+1540562338204	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540562338254	Marionette	DEBUG	[2147483649] Frame script loaded
+1540562338255	Marionette	DEBUG	[2147483649] Frame script registered
+1540562338284	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540562338367	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript error: http://www.imd.gov.in/pages/allindiawxwarningbulletin.php, line 172: ReferenceError: ddaccordion is not defined
+1540562340055	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540562340107	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+JavaScript error: resource://activity-stream/lib/TopSitesFeed.jsm, line 93: TypeError: setting getter-only property "_currentSearchHostname"
+1540562371885	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.dvHIvbchUZl6"
+1540562374741	Marionette	INFO	Listening on port 42177
+1540562374795	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540562374827	Marionette	DEBUG	[2147483649] Frame script loaded
+1540562374828	Marionette	DEBUG	[2147483649] Frame script registered
+1540562374848	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540562375778	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript error: http://www.imd.gov.in/pages/allindiawxwarningbulletin.php, line 172: ReferenceError: ddaccordion is not defined
+1540562377178	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540562377285	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+JavaScript error: resource://pdf.js/build/pdf.js, line 427: Error: 
+JavaScript error: resource://activity-stream/lib/TopSitesFeed.jsm, line 93: TypeError: setting getter-only property "_currentSearchHostname"
+1540562424989	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.hKmPRl863QtI"
+1540562427483	Marionette	INFO	Listening on port 36739
+1540562427505	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540562427540	Marionette	DEBUG	[2147483649] Frame script loaded
+1540562427548	Marionette	DEBUG	[2147483649] Frame script registered
+1540562427572	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540562427668	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript error: http://www.imd.gov.in/pages/allindiawxwarningbulletin.php, line 172: ReferenceError: ddaccordion is not defined
+1540562431055	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540562431121	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+[Parent 27413, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-UmddGa/firefox-62.0+linuxmint4+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540562441754	Marionette	INFO	Stopped listening on port 36739
+[Parent 27113, Gecko_IOThread] WARNING: pipe error (56): Connection reset by peer: file /build/firefox-UmddGa/firefox-62.0+linuxmint4+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540562442278	Marionette	INFO	Stopped listening on port 42177
+1540562602012	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.21odkCyrr4AX"
+1540562604461	Marionette	INFO	Listening on port 43895
+1540562604526	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540562604561	Marionette	DEBUG	[2147483649] Frame script loaded
+1540562604562	Marionette	DEBUG	[2147483649] Frame script registered
+1540562604573	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540562604684	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript error: http://www.imd.gov.in/pages/allindiawxwarningbulletin.php, line 172: ReferenceError: ddaccordion is not defined
+1540562607188	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+1540562607257	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.imd.gov.in/pages/allindiawxwarningbulletin.php
+[Parent 27815, Gecko_IOThread] WARNING: pipe error (45): Connection reset by peer: file /build/firefox-UmddGa/firefox-62.0+linuxmint4+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540562626402	Marionette	INFO	Stopped listening on port 43895
+1540563670469	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.8eQuR1N980Nh"

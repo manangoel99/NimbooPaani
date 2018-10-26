@@ -118,8 +118,8 @@ public class CampActivity extends AppCompatActivity {
                 jsonObject.put("lon",currLon);
                 jsonObject.put("ppl",ppl);
 
-//                URL url=new URL("http://nimboopaani.azurewebsites.net/rescueadd");
-                URL url=new URL("http://10.1.134.235:8000/rescueadd");
+               URL url=new URL("http://nimboopaani.azurewebsites.net/rescueadd");
+//                 URL url=new URL("http://10.1.134.235:8000/rescueadd");
                 final MediaType JSON=MediaType.parse("application/json; charset=utf-8");
                 OkHttpClient client=new OkHttpClient();
                 RequestBody body= RequestBody.create(JSON,jsonObject.toString());

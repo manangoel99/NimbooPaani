@@ -72,7 +72,7 @@ def maps(request):
     )
 
 
-def getPhrases():
+'''def getPhrases():
     driver = webdriver.Firefox()
 
     driver.get("http://www.imd.gov.in/pages/allindiawxwarningbulletin.php")
@@ -150,7 +150,7 @@ def getPhrases():
             place.name = o["Name"]
             place.lat = o["Lat"]
             place.lon = o["Lon"]
-            place.save()
+            place.save()'''
 
 def contact(request):
     """Renders the contact page."""
@@ -264,3 +264,17 @@ def AddRescueSpot(request):
 
     spot.save()
     return HttpResponse("Saved Successfully")
+
+def ForecastedPlaces(request):
+    s = ForecastPlace.objects.distinct()
+    x = []
+    for obj in s:
+        z = {}
+        z["Name"] = obj.name
+        z["Lat"] = str(obj.lat)
+        z["Lon"] = str(obj.lon)
+        if z not in x:
+            x.append(z)
+    
+    jason = json.dumps(x)
+    return HttpResponse(jason, content_type='application/json')

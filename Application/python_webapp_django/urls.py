@@ -42,7 +42,8 @@ urlpatterns = [
         },
         name='logout'),
     # url(r'^rescueadd$', app.views.AddRescueSpot)
-    url(r'^rescueadd$', csrf_exempt(app.views.AddRescueSpot))
+    url(r'^rescueadd$', csrf_exempt(app.views.AddRescueSpot)),
+    url(r'^places$', app.views.ForecastedPlaces)
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),

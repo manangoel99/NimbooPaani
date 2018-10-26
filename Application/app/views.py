@@ -7,7 +7,9 @@ from django.http import HttpRequest,HttpResponse
 from django.template import RequestContext
 from datetime import datetime
 from python_webapp_django.settings import BASE_DIR
+from django.core.exceptions import ObjectDoesNotExist
 from app.models import *
+from app.forms import *
 import pandas as pd
 from django.core import serializers
 import json
@@ -36,9 +38,10 @@ def maps(request):
     #     contact = 9125891910,
     #     lat = 10.027458,
     #     lon = 76.338064 
-          
     # )
+    rescue = RescueSpot.objects.all()
 
+    print(rescue)
 
     data = pd.read_csv(BASE_DIR+'/app/static/app/data/keralaTweetDump3.csv',delimiter=';')
     locations = data['Location'].tolist()
@@ -55,7 +58,8 @@ def maps(request):
         {
             # 'title':'Home Page',
             # 'year':datetime.now().year,
-            'locations' : locations[:10]
+            'locations' : locations[:10],
+            'newlocations' : rescue
         }
     )
 
@@ -74,9 +78,87 @@ def contact(request):
         }
     )
 
+def addToDB(form):
+    form = form.cleaned_data
+    print(form)
+
+    camp = Camps.objects.get(name = form["camp"])
+    camp.capacity -= form["noOfPeople"]
+    if(camp.capacity < 0): 
+        camp.capacity = 0
+    camp.save()
+
+
+    specialneeds = form["specialNeeds"]
+    l = [[i for i in j.strip().split(' ')] for j in specialneeds.split(';')]
+
+    for i in l:
+        try:
+            created2 = ResourcesAvail.objects.get(cid = camp, resource=i[0])
+        except ObjectDoesNotExist:
+            if(i[0]!=''):
+                ResourcesAvail.objects.create(
+                    cid = camp,
+                    resource = i[0],
+                    qty = 0,
+                    unit = ''
+                )      
+        try:        
+            created = ResourcesNeed.objects.get(cid = camp, resource=i[0])
+            # print(created.qty)
+            created.qty = int(created.qty) + int(i[1])
+            created.save()
+
+        except ObjectDoesNotExist:
+            if(i[0]!=''):
+                ResourcesNeed.objects.create(
+                    cid = camp,
+                    resource = i[0],
+                    qty = i[1],
+                    unit = i[2]
+                )
+           
+
+        
+
+
+def AddNewRefugee(request):
+    if request.method == 'POST':
+        form = NewRefugee(request.POST)
+        if form.is_valid():
+            addToDB(form)
+            return render(request, 'app/newref.html', {'form':form, 'recv':"Added Successfully"})
+    else:
+        form = NewRefugee()
+
+    return render(request, 'app/newref.html', {'form':form})
+
+def viewResources(request):
+    if request.method == 'POST':
+        form = ChooseCamp(request.POST)
+        if form.is_valid():
+            form = form.cleaned_data
+            camp = Camps.objects.get(name = form["camp"])
+            rescA = ResourcesAvail.objects.filter(cid = camp)
+            rescN = ResourcesNeed.objects.filter(cid = camp)        
+
+            print(rescN)
+            
+            form = ChooseCamp()
+            
+            return render(request, 'app/allresources.html', {'form':form, 'rescA':rescA, 'rescN':rescN})
+
+
+    else:
+        form = ChooseCamp()
+
+    return render(request, 'app/allresources.html', {'form':form})
+
+
+
 
 def returnClosestCamps(request):
-    camps = Camps.objects.filter(capacity__gt = 0)
+    camps = Camps.objects.filter(currentPeople__gt = 0)
 
     camps_json = serializers.serialize('json', camps)
     return HttpResponse(camps_json, content_type='application/json')

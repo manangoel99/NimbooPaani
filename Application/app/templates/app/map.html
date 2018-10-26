@@ -44,6 +44,29 @@
         {% for location in locations %}
           geocodeAddress("{{ location.0 }}",geocoder, map, "<b>People:</b>"+"{{ location.2 }}<br/>"+ "<b>Status</b> "+"{{ location.1 }}");
         {% endfor %}
+
+        {% for location in newlocations%}
+          newAddress({{ location.lat }}, {{ location.lon }}, map, "{{ location.description }}")
+        {% endfor %}
+
+      }
+
+      function newAddress(lat, long, resultsMap, infotext){
+          var pyrmont = {lat: lat, lng: long};
+
+          var marker = new google.maps.Marker({
+            map: resultsMap,
+            position: pyrmont
+          });
+
+          var infowindow = new google.maps.InfoWindow({
+            content: infotext
+          });
+
+          marker.addListener('click', function() {
+            infowindow.open(map, marker);
+          });          
+        
       }
 
       function geocodeAddress(address,geocoder, resultsMap, infotext) {

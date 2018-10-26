@@ -1,0 +1,45 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+
+<br>
+<br>
+<h2>Resources Dashboard</h2>
+
+<form action="/viewresc/" method="post">
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit" value="Submit">
+    <h3>Available Resources</h3>
+	<table class="table">
+		<tr>
+			<th>Resource</th>
+			<th>Quantity</th>
+		</tr>
+    {% for resc in rescA %}
+		<tr>
+			<td>{{ resc.resource }}</td>
+			<td>{{ resc.qty }} {{ resc.unit }}</td>
+		</tr>
+    {% endfor %}
+	</table>
+
+	<h3>Required Resources</h3>
+	<table class="table">
+		<tr>
+			<th>Resource</th>
+			<th>Quantity</th>
+		</tr>
+	{% for resc in rescN %}
+    		<tr>
+    			<td>{{ resc.resource }}</td>
+    			<td>{{ resc.qty }} {{ resc.unit }}</td>
+    		</tr>
+    {% endfor %}
+	</table>
+
+
+</form>
+
+
+{% endblock %}

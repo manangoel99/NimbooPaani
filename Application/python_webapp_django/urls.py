@@ -5,6 +5,7 @@ Definition of urls for python_webapp_django.
 from datetime import datetime
 from django.conf.urls import url
 import django.contrib.auth.views
+from django.views.decorators.csrf import csrf_exempt
 
 import app.forms
 import app.views
@@ -19,7 +20,8 @@ urlpatterns = [
     url(r'^$', app.views.home, name='home'),
     url(r'^maps$', app.views.maps, name='maps'),
     url(r'^camps', app.views.returnClosestCamps, name='camps'),
-    url(r'^contact$', app.views.contact, name='contact'),
+    url(r'^newref/$', app.views.AddNewRefugee, name='newRef'),
+    url(r'^viewresc/$', app.views.viewResources, name='viewResc'),
     # url(r'^about', app.views.about, name='about'),
     url(r'^login/$',
         django.contrib.auth.views.login,
@@ -39,7 +41,8 @@ urlpatterns = [
             'next_page': '/',
         },
         name='logout'),
-    url(r'^rescueadd$', app.views.AddRescueSpot)
+    # url(r'^rescueadd$', app.views.AddRescueSpot)
+    url(r'^rescueadd$', csrf_exempt(app.views.AddRescueSpot))
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),

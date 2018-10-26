@@ -2,12 +2,15 @@
 
 {% block content %}
 
-<h2>New Refugee</h2>
+<br>
+<br>
+<h2>Add a new refugee</h2>
 
-<form action="/your-name/" method="post">
+<form action="/newref/" method="post">
     {% csrf_token %}
     {{ form }}
     <input type="submit" value="Submit">
+    {{ recv }}
 </form>
 
 

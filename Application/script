@@ -1,0 +1,24 @@
+In the advent of a disaster it is equally important to tackle key issues before, during and after the disaster strikes. Preventing the loss of property and lives before the disaster, saving people who are stranded during the course of the disaster, and getting disaster victims to relief camps post the disaster. We also noticed that coordinating the various relief efforts is a mammoth task.
+
+Our aim going into this project was to build and end to end solution to help both the relief efforts and disaster victims in the case of a flood. We hope that our approach can be easily extended for other disasters as well. Our main motivation for this project was the recent kerala floods, where there was a massive loss of life and property. We tried to make observations as to what we could provide in a platform that would help coordinate rescue and relief efforts. At the same time we have tried to keep the mental state of a flood victim in mind, and built an app that is extremely simple to use.
+
+For the Preperatory phase, our application periodically monitors the meterological department's website for any warnings. The meterological department releases predictions upto a week in advance. Using the predictions, we cross check with the user's current location as to whether he would be in the affected region. If this is the case, the app, based on the current altitude, signals to the user whether he is in a safe zone or not. This can be refined further by crowd sourcing data from previously affected areas. 
+
+During the Rescue phase, our main observation was that currently rescue operations are planned based on media reports, satellite images and word of mouth. Satellite images may not be reliable in cases where a victim is trapped indoors. Media cannot possibly reach every single disaster struck area. Word of mouth is too slow.
+In the Kerala flood, rescue services harnessed the power of social media, to find affected areas and what resources the victims require. We felt that this could further be streamlined. 
+
+The first thing we did was to fetch tweets like these:
+
+This allowed us to create a dataset of tweets like this. Here we have limited the number of tweets, naturally we can fetch several more. 
+We then fetch the necessary information from these tweets and present them on the map like this. This will give rescue forces a broad idea of the regions that people are stranded. Clicking on a location will give rescuers more idea about the situtaion the victims are in. Such as "cannot airlift, need a boat", or "supplies running out". We also, scrapped contact information, however we have not presented it here, to protect people's privacy. 
+
+
+The immediate need of a victim of a disaster is to find shelter and food and medication. For this purpose, government and relief agencies set up relief camps at safe locations throughout the affected area. 
+
+Our mobile application will show a straded victim the nearby camps that have capacity. It will also provide him with an option to message the camp with their current location, and an optional message. ofcourse, the victim can also choose to call this number as well. 
+Any new coordinates received will be added to the map as well for the rescue forces to view.
+
+
+On the flip side, the rescue agencies will constantly update the status of the camp's resources and capacity on our platform so that relief efforts can be coordinated evenly between the camps. By simply entering the resources that are to be distributed, the platform will output an optimal way to distibute them to the camps. 
+
+
